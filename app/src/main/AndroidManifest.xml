@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".CardActivity"
+            android:name=".SplashScreenActivity"
             android:finishOnTaskLaunch="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -22,6 +22,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CardActivity"
             android:screenOrientation="portrait">
         </activity>
     </application>

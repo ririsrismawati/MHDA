@@ -90,81 +90,81 @@ public class CardActivity extends AppCompatActivity {
         titleData.add("A a");
         titleData.add("B b");
         titleData.add("C c");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
-        titleData.add(" ");
+        titleData.add("D d");
+        titleData.add("E e");
+        titleData.add("F f");
+        titleData.add("G g");
+//        titleData.add("H h");
+//        titleData.add("I i");
+//        titleData.add("J j");
+//        titleData.add("K k");
+//        titleData.add("L l");
+//        titleData.add("M m");
+//        titleData.add("N n");
+//        titleData.add("O o");
+//        titleData.add("P p");
+//        titleData.add("Q q");
+//        titleData.add("R r");
+//        titleData.add("S s");
+//        titleData.add("T t");
+//        titleData.add("U u");
+//        titleData.add("V v");
+//        titleData.add("W w");
+//        titleData.add("X x");
+//        titleData.add("Y y");
+//        titleData.add("Z z");
 
 
         subTitleData = new ArrayList<>();
         subTitleData.add("Ayam");
         subTitleData.add("Bola");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
-        subTitleData.add("");
+        subTitleData.add("Ceri");
+        subTitleData.add("Dadu");
+        subTitleData.add("Es Krim");
+        subTitleData.add("Foto");
+        subTitleData.add("Gajah");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
+//        subTitleData.add("");
 
         imageData = new int[]{
                 R.drawable.ayam,
                 R.drawable.bola,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
-                R.drawable.,
+                R.drawable.ceri,
+                R.drawable.dadu,
+                R.drawable.eskrim,
+                R.drawable.foto,
+                R.drawable.gajah
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.,
+//                R.drawable.
         };
     }
 
