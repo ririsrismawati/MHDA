@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
+    android:background="@color/yellow"
     tools:context="com.sttb.mobileprogramming.mengenalhurufdanangka.MainActivity">
 
     <LinearLayout
@@ -16,29 +16,31 @@
         <Button
             android:id="@+id/btn_alphabet"
             android:layout_width="@dimen/_200sdp"
-            android:layout_height="@dimen/_55sdp"
+            android:layout_height="@dimen/_60sdp"
             android:layout_marginBottom="@dimen/_8sdp"
             android:background="@drawable/btn_menu"
+            android:drawableLeft="@drawable/abcdef"
             android:text="Belajar \nAlphabet"
-            android:textSize="@dimen/_16sdp"/>
+            android:textSize="@dimen/_18sdp"/>
 
         <Button
             android:id="@+id/btn_angka"
             android:layout_width="@dimen/_200sdp"
-            android:layout_height="@dimen/_55sdp"
+            android:layout_height="@dimen/_60sdp"
             android:layout_marginBottom="@dimen/_8sdp"
             android:background="@drawable/btn_menu"
-
+            android:drawableLeft="@drawable/angka"
             android:text="Belajar \n Angka"
-            android:textSize="@dimen/_16sdp"/>
+            android:textSize="@dimen/_18sdp"/>
 
         <Button
             android:id="@+id/btn_game"
             android:layout_width="@dimen/_200sdp"
-            android:layout_height="@dimen/_55sdp"
+            android:layout_height="@dimen/_60sdp"
             android:background="@drawable/btn_menu"
+            android:drawableLeft="@drawable/question"
             android:text="Game"
-            android:textSize="@dimen/_16sdp"/>
+            android:textSize="@dimen/_18sdp"/>
     </LinearLayout>
 
 
