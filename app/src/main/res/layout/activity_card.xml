@@ -18,7 +18,7 @@
         android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_30sdp"
         swipedeck:card_spacing="10dp"
-        swipedeck:max_visible="10"
+        swipedeck:max_visible="25"
         swipedeck:opacity_end="0.2"
         swipedeck:render_above="true"
         swipedeck:rotation_degrees="15"
