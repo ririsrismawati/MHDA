@@ -28,7 +28,13 @@
             android:name=".AlphabetActivity"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".NumberActivity">
+        <activity
+            android:name=".NumberActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

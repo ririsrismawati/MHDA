@@ -1,0 +1,107 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    card_view:cardBackgroundColor="@color/purple"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="10dp"
+    card_view:contentPadding="@dimen/_15sdp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border"
+        android:padding="@dimen/_8sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/_15sdp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="L l"
+                android:textColor="@color/bel_grey_text"
+                android:textSize="@dimen/_40sdp"/>
+
+            <ImageView
+                android:id="@+id/btn_play"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/sound"
+                android:text="play"/>
+
+
+            <RelativeLayout
+                android:id="@+id/offer_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/satu"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="Tips:\nisilah sesuai nama benda \natau hewan diatas :)"
+                    android:textColor="@color/bel_grey_text"
+                    android:textSize="@dimen/_13sdp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="@drawable/bg_field"
+                        android:gravity="center"
+                        android:inputType="textCapWords"
+                        android:minWidth="@dimen/_100sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/bel_grey_text"
+                        android:textSize="@dimen/_25sdp"/>
+
+                    <Button
+                        android:id="@+id/btn_cek"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:background="@drawable/btn_ok"
+                        android:padding="@dimen/_5sdp"
+                        android:text="cek"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
